@@ -30,7 +30,7 @@
 - Profile claim system,
 - Cloud database,
 - Bust, head and body images of skins,
-- Server list,
+- Server List,
 - Skin List,
 - Microsoft and Discord registration and login,
 - MOTD view of servers,
