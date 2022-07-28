@@ -1,5 +1,7 @@
 <h1 align="center">🧱 MineAPI - Simple Minecraft API Provider</h1>
 
+<br />
+
 ## `💻` Get Started
 - Fill in the `src/config.json` file completely.
 - Make sure your Node.js version is v16.16.0.
@@ -22,6 +24,8 @@
     yarn dev
     ```
     
+<br />
+
 ## `✨` Features
 - Low latency,
 - Easy to use,
