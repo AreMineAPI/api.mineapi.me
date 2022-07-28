@@ -13,7 +13,7 @@ app.use(session({
     saveUninitialized: true,
 }));
 
-app.use(Middlewares.logger);
+// app.use(Middlewares.logger);
 app.use(require('body-parser').urlencoded({ extended: true }));
 app.use(require('body-parser').json());
 app.use(passport.authenticate('session'));
