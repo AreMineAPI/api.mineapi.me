@@ -35,6 +35,7 @@
 - Microsoft and Discord registration and login,
 - MOTD view of servers,
 - Server information,
+- Its link is masked; Skins and Capes,
 - Achievement generator system.
   - and discover more now...
 
