@@ -39,6 +39,8 @@
 - Achievement generator system.
   - and discover more now...
 
+<br />
+
 ## `❓` F.A.Q
 <details>
   <summary>Why should I trust?</summary>
@@ -63,6 +65,13 @@
   - Body avatar is the appearance of the character with full body. You can see the example below.
   ![Body](https://api.mineapi.me/v1/body/ImClau)
 </details>
+
+<br />
+
+## `📞` Contact Us
+- [Discord Server](https://discord.gg/rJ2G8YRVVa)
+
+<br />
 
 ## `📃` LICENSE
 ```txt
@@ -89,10 +98,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-
-## `📞` Contact Us
-- [Discord Server](https://discord.gg/rJ2G8YRVVa)
-
+<br />
 
 ---
 <p align="center">Developed with ❤ by clqu, Loiren.</p>
