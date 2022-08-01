@@ -3,6 +3,7 @@ const router = new Router();
 const Skins = require('../database/models/userNames');
 const Servers = require('../database/models/servers');
 const getSkin = require('../utils/user/getSkin');
+const getServer = require('../utils/server/getServer');
 
 router.get('/all/skins', async (req, res) => {
     let { page, limit, q, sort } = req.query;
@@ -69,6 +70,9 @@ router.get('/all/servers', async (req, res) => {
     if (!q) {
         q = "";
     }
+	if (q.trim().length > 0) {
+		await getServer(q);
+	}
     if (isNaN(page) || isNaN(limit)) return res.status(400).json({
         success: false,
         message: "Page and limit must be number."
