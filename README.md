@@ -1,9 +1,10 @@
-<h1 align="center">DBio.me - A open-source Discord Biography platform.</h1>
+<h1 align="center">🧱 MineAPI - Simple Minecraft API Provider</h1>
 
 <br />
 
 ## `💻` Get Started
-- Make sure your Node.js version is v18.12.1.
+- Fill in the `src/config.json` file completely.
+- Make sure your Node.js version is v16.16.0.
 - Open your Terminal in the file directory and type the lines below in order.
 
   - ```bash
@@ -22,11 +23,57 @@
     # or
     yarn dev
     ```
+    
+<br />
+
+## `✨` Features
+- Low latency,
+- Easy to use,
+- UUID and Username support,
+- Account system,
+- Profile claim system,
+- Cloud database,
+- Bust, head and body images of skins,
+- Server List,
+- Skin List,
+- Microsoft and Discord registration and login,
+- MOTD view of servers,
+- Server information,
+- Its link is masked; Skins and Capes,
+- Achievement generator system.
+  - and discover more now...
+
+<br />
+
+## `❓` F.A.Q
+<details>
+  <summary>Why should I trust?</summary>
+  
+  - MineAPI is written quite neatly and clearly compared to its competitors. The project is open source with everything and its interface is among them.
+</details>
+<details>
+  <summary>What is a bust avatar?</summary>
+  
+  - Bust avatar is the appearance of the character without the lower body. You can see the example below.
+  ![Bust Body](https://api.mineapi.me/v1/bust/ImClau)
+</details>
+<details>
+  <summary>What is a head avatar?</summary>
+  
+  - Head avatar is the appearance of the character only head. You can see the example below.
+  ![Head](https://api.mineapi.me/v1/head/ImClau)
+</details>
+<details>
+  <summary>What is a Body avatar?</summary>
+  
+  - Body avatar is the appearance of the character with full body. You can see the example below.
+  ![Body](https://api.mineapi.me/v1/body/ImClau)
+</details>
 
 <br />
 
 ## `📞` Contact Us
-- [Discord Server](https://discord.com/invite/pG2qZuEQPY)
+- [Discord Server](https://discord.gg/rJ2G8YRVVa)
 
 <br />
 
@@ -34,7 +81,7 @@
 ```txt
 MIT License
 
-Copyright (c) 2022 MineAPI
+Copyright (c) 2022 Discord Bio (a.k.a dbio.me)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
