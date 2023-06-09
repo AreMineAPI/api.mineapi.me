@@ -3,7 +3,7 @@
 <br />
 
 ## `💻` Get Started
-- Fill in the `src/config.json` file completely.
+- Fill in the `src/config.js` file completely.
 - Make sure your Node.js version is v16.16.0.
 - Open your Terminal in the file directory and type the lines below in order.
 

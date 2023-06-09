@@ -1,4 +1,7 @@
-const { connect } = require('mongoose');
-const config = require('../config.json');
+const { connect } = require("mongoose");
+const config = require("../config.js");
 
-connect(config.database.url, { useNewUrlParser: true, useUnifiedTopology: true });
+connect(config.database.url, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
