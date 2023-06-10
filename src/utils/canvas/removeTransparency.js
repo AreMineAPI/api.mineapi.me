@@ -1,9 +1,9 @@
-const { createCanvas, loadImage } = require('canvas');
+const { createCanvas, loadImage } = require("canvas");
 
-module.exports = src => {
-    return loadImage(src).then(image => {
+module.exports = (src) => {
+    return loadImage(src).then((image) => {
         const canvas = createCanvas(image.width, image.height);
-        const ctx = canvas.getContext('2d');
+        const ctx = canvas.getContext("2d");
 
         ctx.patternQuality = "fast";
         ctx.drawImage(image, 0, 0);
@@ -18,4 +18,4 @@ module.exports = src => {
         ctx.putImageData(imagedata, 0, 0);
         return canvas.toBuffer();
     });
-}
+};

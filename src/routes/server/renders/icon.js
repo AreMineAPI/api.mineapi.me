@@ -1,12 +1,12 @@
-const Router = require('express').Router;
+const Router = require("express").Router;
 const router = new Router();
 
-const axios = require('axios');
+const axios = require("axios");
 
-const resize = require('../../../utils/canvas/resize');
-const getIcon = require('../../../utils/server/getIcon');
+const resize = require("../../../utils/canvas/resize");
+const getIcon = require("../../../utils/server/getIcon");
 
-router.get('/icon/:value', async (req, res) => {
+router.get("/icon/:value", async (req, res) => {
     const image = await getIcon(encodeURIComponent(req.params.value));
 
     let { width, height } = req.query;
@@ -18,14 +18,14 @@ router.get('/icon/:value', async (req, res) => {
     if (isNaN(width) || isNaN(height)) {
         res.status(400).json({
             success: false,
-            message: "Width and height must be number."
+            message: "Width and height must be number.",
         });
     }
 
     if (image.error) {
         res.status(404).json({
             success: false,
-            message: image.message
+            message: image.message,
         });
     }
 

@@ -10,4 +10,4 @@ module.exports = (ctx, x, y, width, height, radius) => {
     ctx.lineTo(x, y + radius);
     ctx.quadraticCurveTo(x, y, x + radius, y);
     ctx.closePath();
-}
+};
